@@ -1,4 +1,4 @@
-##Real-Time Object Detection with YOLOv8 & OpenCV
+##Real-Time Object Detection with YOLOv8 & OpenCV##
 
 A fast, exception-safe computer vision application built with Python, OpenCV, and Ultralytics YOLOv8 for real-time webcam object detection.
 
