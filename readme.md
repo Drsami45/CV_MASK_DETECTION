@@ -1,18 +1,18 @@
-##Real-Time Object Detection with YOLOv8 & OpenCV##
+# Real-Time Object Detection with YOLOv8 & OpenCV
 
 A fast, exception-safe computer vision application built with Python, OpenCV, and Ultralytics YOLOv8 for real-time webcam object detection.
 
-##Features
+## Features
 
-Real-Time Inference: Uses the lightweight YOLOv8 Nano model (yolov8n.pt) for low-latency object detection on standard CPUs.
+### Real-Time Inference: Uses the lightweight YOLOv8 Nano model (yolov8n.pt) for low-latency object detection on standard CPUs.
 
-Robust Hardware Handling: Auto-detects platform video drivers (CAP_DSHOW on Windows) and handles camera errors smoothly.
+### Robust Hardware Handling: Auto-detects platform video drivers (CAP_DSHOW on Windows) and handles camera errors smoothly.
 
-Auto-Recovery: Guards against empty or dropped frames during live streaming.
+### Auto-Recovery: Guards against empty or dropped frames during live streaming.
 
-Clean Exit: Allows quitting via keyboard shortcuts (q, ESC) or by closing the window directly without terminal crashes.
+### Clean Exit: Allows quitting via keyboard shortcuts (q, ESC) or by closing the window directly without terminal crashes.
 
-Project Structure
+## Project Structure
 
 CV_MASK_DETECTION/
 │
@@ -21,7 +21,7 @@ CV_MASK_DETECTION/
 └── README.md        # Project documentation
 
 
-Setup & Installation
+## Setup & Installation
 
 1. Clone the Repository
 
@@ -31,11 +31,11 @@ cd CV_MASK_DETECTION
 
 2. Set Up Virtual Environment (Optional)
 
-# On Windows
+## On Windows
 python -m venv venv
 venv\Scripts\activate
 
-# On macOS/Linux
+## On macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
@@ -45,7 +45,7 @@ source venv/bin/activate
 pip install ultralytics opencv-python
 
 
-Usage
+## Usage
 
 Run the main Python script:
 
